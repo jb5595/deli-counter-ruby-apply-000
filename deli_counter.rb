@@ -20,7 +20,7 @@ def take_a_number(deli, number)
   number = number + 1
   
 end 
-take_a_number([], number)
+number = take_a_number([], number)
 take_a_number(["Jake"], number)
 def now_serving(deli)
   if deli.length == 0
