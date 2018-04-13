@@ -17,7 +17,7 @@ end
 def take_a_number(deli, number)
   deli.push(number)
   puts "You are number #{number}"
-  number++
+  number = number + 1
   
 end 
 
