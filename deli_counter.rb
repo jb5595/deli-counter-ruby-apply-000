@@ -14,13 +14,13 @@ def line(deli)
   end 
 end 
 
-def take_a_number(deli, number)
+def take_a_number(deli)
   deli.push(number)
   puts "You are number #{number}"
   number = number + 1
   
 end 
-number = take_a_number([], number)
+take_a_number([], number)
 take_a_number(["Jake"], number)
 def now_serving(deli)
   if deli.length == 0
