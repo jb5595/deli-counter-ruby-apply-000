@@ -1,3 +1,4 @@
+number =1;
 # Write your code here.
 def line(deli)
   if deli.length == 0 
@@ -13,9 +14,11 @@ def line(deli)
   end 
 end 
 
-def take_a_number(deli, name)
-  deli.push(name)
-  puts "Welcome, #{name}. You are number #{deli.length} in line."
+def take_a_number(deli, number)
+  deli.push(number)
+  puts "You are number #{number}"
+  number++
+  
 end 
 
 def now_serving(deli)
